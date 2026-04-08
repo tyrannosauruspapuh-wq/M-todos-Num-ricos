@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def falsa_posicion(f, a, b, tol=1e-6, max_iter=100):
     if f(a) * f(b) >= 0:
         raise ValueError("Intervalo inválido")
